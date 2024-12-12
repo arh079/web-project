@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <style>
+        * {
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .prod {
+            float: left;
+            width: 33%;
+            text-align: center;
+        }
+
+        .title {
+            text-align: center;
+            border-bottom: 1px solid #48ca95;
+            margin-right: 40%;
+            margin-left: 40%;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+        .name {
+            margin: auto;
+            width: 50%;
+            background-color: black;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 20px;
+            padding: 15px;
+            transition: 0.4s;
+        }
+
+        .name:hover {
+            background-color: #48ca95;
+            margin: auto;
+            cursor: pointer;
+        }
+
+        .clearfix {
+            clear: both;
+            margin-bottom: 50px;
+        }
+
+        #btn {
+            text-align: center;
+        }
+
+        #btn button {
+            padding: 15px 25px;
+            background: #48ca95;
+            color: azure;
+            font-size: larger;
+            cursor: pointer;
+            margin-bottom: 30px;
+        }
+
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        header nav {
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        header nav li {
+            display: inline-block;
+            margin-right: 1px;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 20px;
+            transition: 0.4s;
+        }
+
+        header nav a:hover {
+            background-color: #48ca95;
+        }
+
+
+        @media screen and(max-width:575px) {
+            .prod {
+                width: 100%;
+            }
+        }
+
+        @media screen and(min-width:576px)and(max-width:767) {
+            .prod {
+                width: 50%;
+            }
+        }
+
+        @media screen and(min-width:768px)and(max-width:991px) {
+            .prod {
+                width: 33.3333333%;
+            }
+        }
+
+        @media screen and(min-width:992px)and(max-width:1200px) {
+            .prod {
+                width: 25%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="file2.html" target="_blank">Home</a></li>
+                <li><a href="products.html" >Products</a></li>
+                <li><a href="login.html" target="_blank">Contact Us</a></li>
+                <li><a href="reviews.html" target="_blank">Reviews</a></li>
+                <li><a href="dsc.html" target="_blank">Description</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <h1 class="title">PRODUCTS</h1>
+    <div class="member">
+        <div class="prod"><img src="../../images/cd-rom.png" alt="">
+            <div class="name">
+                <h4>DVD</h4>
+            </div>
+        </div>
+        <div class="prod"> <img src="../../images/bettery.png" alt="">
+            <div class="name">
+                <h4>Battery</h4>
+            </div>
+        </div>
+        <div class="prod"> <img src="../../images/rams.png" alt="">
+            <div class="name">
+                <h4>Ram</h4>
+            </div>
+        </div>
+        <div class="prod"> <img src="../../images/harddisk.png" alt="">
+            <div class="name">
+                <h4>Hard disc</h4>
+            </div>
+        </div>
+        <div class="prod"> <img src="../../images/internet.png" alt="">
+            <div class="name">
+                <h4>Internet</h4>
+            </div>
+        </div>
+        <div class="prod"> <img src="../../images/speakers.png" alt="">
+            <div class="name">
+                <h4>Speakers</h4>
+            </div>
+        </div>
+        <div class="prod"> <img src="../../images/camera.png" alt="">
+            <div class="name">
+                <h4>Camera</h4>
+            </div>
+        </div>
+        <div class="prod"> <img src="../../images/keyboard.png" alt="">
+            <div class="name">
+                <h4>Keyboard</h4>
+            </div>
+        </div>
+        <div class="prod"> <img src="../../images/mouse.png" alt="">
+            <div class="name">
+                <h4>Mouse</h4>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div id="btn"><button>Show More</button></div>
+</body>
+
+</html>
